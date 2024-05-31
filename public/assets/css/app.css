@@ -647,7 +647,7 @@ body.active {
   text-align: center;
   font-family: Iceberg;
   font-size: clamp(53px, 18vw, 200px);
-  background: linear-gradient(180deg, rgba(246, 8, 19, 0.5) -99.34%, rgba(13, 13, 13, 0.5) 80.79%);
+  background: linear-gradient(180deg, rgba(246, 8, 19, 0.7) -99.34%, rgba(13, 13, 13, 0.5) 80.79%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -4363,4 +4363,32 @@ template {
     width: 100%;
     align-items: center;
     gap: 15px;
+}
+
+.error-page__group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.error-page__group img {
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -11;
+    filter: blur(1px);
+}
+.error-bg {
+    width: 100%;
+    height: 100vh;
+    background: rgba(14, 7, 7, 0.79);
+    position: absolute;
+    left: 0;
+    top: 0;
 }

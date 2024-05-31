@@ -46,13 +46,10 @@
             </div>
         @endguest
 
-        <nav class="ph-menu">
-            <button aria-label="Меню навигации" type="button" class="icon-menu">
+        <nav class="ph-menu"><button aria-label="Меню навигации" type="button" class="icon-menu">
                 <span></span>
                 <span></span>
                 <span></span>
-            </button>
-            <div class="ph-menu__body"></div>
-        </nav>
+            </button><div class="ph-menu__body"></div></nav>
     </nav>
 </header>

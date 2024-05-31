@@ -9,7 +9,6 @@
     <link rel="icon" type="image/x-icon" href="{{ asset('assets/img/favicon.webp') }}">
     <title>{{ $title }}</title>
     @livewireStyles
-    <script src="{{ asset('assets/js/app.min.js') }}" defer></script>
 </head>
 
 <body>
@@ -18,9 +17,7 @@
         {{-- Header --}}
         @include('layout.header')
 
-        <nav class="ph-menu-bottom">
-
-        </nav>
+        @auth()<nav class="ph-menu-bottom"></nav>@endauth
         <svg display="none">
             <symbol id="sun-light" viewBox="0 0 24 24" fill="none">
                 <g id="sun-light" clip-path="url(#clip0_44_164)">
@@ -282,7 +279,7 @@
                             <p class="footer-nametxt__logo">UNREALIZE</p>
                             <p class="footer-nametxt__text">ПРИСОЕДИНЯЙСЯ К НАМ</p>
                         </div>
-                        <a href="registration.php"><button type="button" class="logo-desc__button button">Cтать
+                        <a href="{{ route('register') }}"><button type="button" class="logo-desc__button button">Cтать
                                 частью сообщества</button></a>
                         <div class="body-footer__menu footer-menu">
                             <a class="footer-menu__item">Связаться с нами</a>
@@ -310,6 +307,7 @@
     </main>
     </div>
     @livewireScripts
+    <script src="{{ asset('assets/js/app.min.js') }}" defer></script>
 </body>
 
 </html>
