@@ -1059,7 +1059,7 @@ template {
   height: 100%;
   left: 0;
   top: 0;
-  object-fit: fill;
+  object-fit: cover;
   z-index: 2;
 }
 .logo-container__bg-img {
