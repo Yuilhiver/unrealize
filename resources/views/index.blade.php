@@ -26,9 +26,9 @@
             </div>
             <section id="main-screen" class="body-page__logo-container logo-container scroll-item">
                 <div class="logo-container__logotype logotype-desc">
-                    <p class="logotype-desc__desc">Сообщество Unreal Engine</p>
+                    <p class="logotype-desc__desc">Сообщество разработчиков</p>
                     <div class="logotype-desc__logo">
-                        <div class="logo-font">UNREALIZE<div class="logo-font__shadow">UNREALIZE</div>
+                        <div class="logo-font">CP<div class="logo-font__shadow">CP</div>
                         </div>
                     </div>
                 </div>
@@ -100,7 +100,7 @@
                         <img loading="lazy" class="img-desc-about__img" alt="ue logo"
                             src="{{ asset('assets/img/ue-logo.png') }}"></img>
                         <div class="img-desc-about__desc desc-about">
-                            <div class="desc-about__red-logo">UNREALIZE</div>
+                            <div class="desc-about__red-logo">CP</div>
                             <div class="desc-about__header">НАША МИССИЯ</div>
                             <p class="desc-about__paragraph">Наша миссия - обеспечить уникальное пространство
                                 для обмена знаний, навыков и творческой энергии в мире игровой разработки.</p>
@@ -119,9 +119,9 @@
                         </div>
                     </div>
                     <div class="about-page__decorative-elements">
-                        <p>UNREALIZE</p>
-                        <p>UNREALIZE</p>
-                        <p>UNREALIZE</p>
+                        <p>CP</p>
+                        <p>CP</p>
+                        <p>CP</p>
                     </div>
                 </div>
             </section>

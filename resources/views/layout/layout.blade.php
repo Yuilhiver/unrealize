@@ -276,7 +276,7 @@
                 <div class="footer__container">
                     <div class="footer__body body-footer">
                         <div class="body-footer__name-txt footer-nametxt">
-                            <p class="footer-nametxt__logo">UNREALIZE</p>
+                            <p class="footer-nametxt__logo">CP</p>
                             <p class="footer-nametxt__text">ПРИСОЕДИНЯЙСЯ К НАМ</p>
                         </div>
                         <a href="{{ route('register') }}"><button type="button" class="logo-desc__button button">Cтать
@@ -297,7 +297,7 @@
                                 </svg>
                             </a>
                         </div>
-                        <div class="body-footer__license">©2024 UNREALINE</div>
+                        <div class="body-footer__license">©2024 CP</div>
                     </div>
                 </div>
             </footer>

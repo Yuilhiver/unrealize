@@ -1,7 +1,7 @@
 <header class="header">
     <nav class="header__nav nav-header">
         <div class="main-logotype"><a href="{{ route('index') }}">
-                <p>UNREALIZE</p>
+                <p>CP</p>
             </a></div>
         <div data-da=".ph-menu__body,767.98,1" class="nav-header__menu nav-menu menu__body">
             <a class="nav-menu__item" href="{{ route('index') }}">Главная</a>
