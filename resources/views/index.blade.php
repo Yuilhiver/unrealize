@@ -1,4 +1,4 @@
-@extends('layout.layout', ['title' => 'UNREALIZE'])
+@extends('layout.layout', ['title' => 'СООБЩЕСТВО РАЗРАБОТЧИКОВ'])
 
 @section('content')
 
