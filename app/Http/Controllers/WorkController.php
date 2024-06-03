@@ -115,7 +115,7 @@ class WorkController extends Controller
         Gate::authorize('update',$work);
 
         $validator = Validator::make(request()->all(), [
-            'title' => 'required|min:2|max:150',
+            'title' => 'required|min:2|max:25',
             'shortDescription' => 'required|min:2|max:1125',
             'description' => 'required|min:2|max:15500',
             'worktype_id' => 'required|integer',
